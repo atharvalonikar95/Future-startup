@@ -3,6 +3,7 @@ k=int(input("enter number of elements:"))
 for i in range(0,k):
     E=int(input())
     nums.append(E)
+print("nums:",nums)
 n=len(nums)
 for i in range (0,n):
     count=0
