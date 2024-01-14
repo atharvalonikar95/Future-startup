@@ -1,9 +1,15 @@
-class solution:
-    def diff(self,t):
-        s=input("string s is :")
-        for i in t:
-            if i not in s:
-                return i 
-t=input("enter string t :")
-obj1=solution()
-print(obj1.diff(t))
+from collections import Counter
+
+class Solution:
+    def findTheDifference(self, s: str, t: str) -> str:
+        s_count = Counter(s)
+        t_count = Counter(t)
+
+        for i, freq in t_count.items():
+            if i not in s_count or s_count[i] != freq:
+                return i
+
+
+solution = Solution()
+result = solution.findTheDifference("abcd", "abcde")
+print(result)
