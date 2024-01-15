@@ -1,5 +1,5 @@
 class Solution:
-    def numberGame(self, nums: List[int]) -> List[int]:
+    def numberGame(self, nums) :
         arr=[]
         while len(nums) >= 2:
             min1 = min(nums)
@@ -10,4 +10,6 @@ class Solution:
             arr.extend([min2, min1])
             
         return arr
+nums=[2,5]
+print(Solution().numberGame(nums))
 
