@@ -14,13 +14,4 @@ class Solution:
             return True
         else:
             return False
-# n = 19
-# n=str(n)
-# s=[]
-# for i in n:
-#     s.append(int(i))
-# print(s)
-# happy=0
-# for i in s :
-#     happy=happy*happy + i*i
-# print(happy)
+        
