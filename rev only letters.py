@@ -20,4 +20,4 @@ class Solution:
 
         revStr = ''.join(list1)
         return revStr
-Solution().reverseOnlyLetters()
+print(Solution().reverseOnlyLetters("hello"))

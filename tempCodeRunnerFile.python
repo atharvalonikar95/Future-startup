@@ -1,0 +1,12 @@
+num="94353214300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+s=[]
+for i in num:
+    s.append(i)
+print(s)
+# for i in range(len(s)-1,0,-1):
+for i in s:
+    while s[-1]=='0':
+        s.pop()
+print(s)
+num=''.join(s)
+print(num)
