@@ -9,7 +9,7 @@ class Solution:
                 s_idx+=1
                 if s_idx == len(s):
                     return True
-        return s_idx == len(s)
+        return False
 
 
         
