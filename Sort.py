@@ -17,5 +17,4 @@ for i in range(n):
             nums[j+1]=temp
         
 
-
 print(nums)
