@@ -34,7 +34,7 @@ def thirdmax(NUMS,max1,max2,max3):
 
     return max3
 ans=thirdmax(NUMS,max1,max2,max3)
-print(ans)
+print(ans)    
 
 
     
