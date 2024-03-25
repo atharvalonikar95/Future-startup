@@ -11,5 +11,5 @@ class Solution:
             
         return arr
 nums=[2,5]
-print(Solution().numberGame(nums))
-
+sol=Solution()
+print(sol.numberGame(nums))
